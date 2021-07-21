@@ -1,0 +1,7 @@
+cache_flush_by_boot.routing:
+  path: '/admin/config/system/cache-flush-by-boot'
+  defaults:
+    _form: '\Drupal\cache_flush_by_boot\Form\CacheFlushByBootConfigForm'
+    _title: 'Cache flush by boot'
+  requirements:
+    _permission: 'administer cache_flush_by_boot'

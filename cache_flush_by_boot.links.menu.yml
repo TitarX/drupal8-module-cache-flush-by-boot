@@ -1,0 +1,7 @@
+cache_flush_by_boot.link:
+  title: 'Cache flush by boot'
+  description: 'Cache flush by boot'
+  menu_name: admin
+  parent: system.admin_config_development
+  route_name: cache_flush_by_boot.routing
+  weight: 100

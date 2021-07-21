@@ -1,0 +1,5 @@
+services:
+  cache_flush_by_boot.cache_flush_by_boot_subscriber:
+    class: \Drupal\cache_flush_by_boot\EventSubscriber\CacheFlushByBootSubscriber
+    tags:
+      - { name: 'event_subscriber' }

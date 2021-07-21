@@ -1,0 +1,4 @@
+administer cache_flush_by_boot:
+  title: 'Администрирование настроек модуля Cache flush by boot'
+  description: 'Доступ к настройкам модуля Cache flush by boot (cache_flush_by_boot).'
+  restrict access: true

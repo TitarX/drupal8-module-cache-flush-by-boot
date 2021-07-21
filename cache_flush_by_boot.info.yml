@@ -1,0 +1,7 @@
+name: 'Cache flush by boot'
+description: 'Cache flush by boot'
+type: module
+core: 8.x
+version: 1.0
+package: EXTRA
+configure: cache_flush_by_boot.routing

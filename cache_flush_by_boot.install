@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function cache_flush_by_boot_install() {
+  module_set_weight('cache_flush_by_boot', 100);
+}
